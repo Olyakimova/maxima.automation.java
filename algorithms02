@@ -1,0 +1,58 @@
+Algorithm 3: Приготовить яичницу 
+
+class Egg FriedEggs::makeEggs()
+{
+//1) Взять сковороду;
+Pan pan;
+
+//2) Поставить сковороду на плиту;
+GasStove.putPan(pan);
+
+//3) Взять кусочек сливочного масла;
+Butter pieceOfButter;
+
+//4) Положить кусочек масла на сковороду;
+pan.addButter(pieceOfButter);
+
+//5) Зажечь огонь на плите;
+gasStove.lightFire();
+Definition of Done (DoD): The butter has melted
+
+//6) Взять 3 яйца;
+Egg egg;
+
+//7) Взять глубокую тарелку;
+DeepPlate deepPlate;
+
+//8) Подготовить яйца;
+deepPlate.prepareEggs();
+for(int i=1;i<=3;i++)
+{
+		//Разбить яйцо в тарелку;
+		DeepPlate.addEgg(egg);
+		//Проверить яйцо;
+		DeepPlate.checkIt();
+		if (яйцо хорошее)
+		{
+			ничего не делать;
+		}
+		then
+		{
+			вылить яйцо в мусор;
+		}
+		//Вылить яйцо из тарелки в сковороду;
+		Pan.addEgg(DeepPlate.getEgg());
+}
+//9) Жарим яичницу;
+Pan.fryEggs();
+int time = 5;
+do {
+ mInfoTextView.append("Осталось" + time + "мин");
+	time--;
+} while (time > 0);
+Definition of Done (DoD): Белок полностью схватился, а желтки остались жидкими
+//10) Посолить яичницу;
+Sold sold;
+Pan.addSold(sold);
+}
+Result: fried eggs ready.
