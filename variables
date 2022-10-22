@@ -1,0 +1,35 @@
+public class types {
+    public static void main(String[] args){
+      byte a = -127;
+		  short b = 2767;
+		  int c = 15;
+		  long d = -1234567890000L;
+		  double e = 31.41;
+		  float floatNumber = 1234.567f;
+		  float otherFloat = (float) 78.64;
+		  boolean isJava = true;
+		  boolean isPython = false;
+		  char symbol1 = 'ж'; //по значению символа
+		  char symbol2 = 1078; //по индексу символа в таблице UTF-8
+		  char symbol3 = '\u0436'; //через шестнадцатеричную форму Unicode (это всё ещё «ж»)
+      String word = "World";
+		  String string = "This day was useful";
+		  String string2 = new String ("This day was useful");
+        
+		  System.out.println("byte " + a);
+		  System.out.println("short " + b);
+		  System.out.println("int " + c);
+		  System.out.println("long " + d);
+		  System.out.println("double " + e);
+		  System.out.println("FloatNumber " + floatNumber);
+		  System.out.println("OtherFloat " + otherFloat);
+		  System.out.println("boolean isJava " + isJava);
+		  System.out.println("boolean isPython " + isPython);
+		  System.out.println("symbol1 " + symbol1);
+		  System.out.println("symbol2 " + symbol2);
+		  System.out.println("symbol3 " + symbol3);
+      System.out.println("word " + word);
+		  System.out.println("string " + string);
+		  System.out.println("string2 " + string2);
+    }
+}
